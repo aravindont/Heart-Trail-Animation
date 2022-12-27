@@ -4,7 +4,10 @@ body {
   background-color: black;
   overflow: hidden;
 }
-
+p {
+  color: #fff;
+  text-align: center;
+}
 span {
   background-image: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-64.png");
   width: 100px;
