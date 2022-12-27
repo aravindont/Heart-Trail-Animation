@@ -14,3 +14,9 @@ bodyEl.addEventListener("mousemove", (event) => {
     spanEl.remove();
   }, 3000);
 });
+const pEl = document.createElement("p");
+pEl.innerText = "Move the mouse to see the magic";
+bodyEl.appendChild(pEl);
+setTimeout(() => {
+  pEl.remove();
+}, 5000);
